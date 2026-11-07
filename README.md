@@ -6,7 +6,7 @@ TRADER WATCH（币安交易员观察台）免费提供币安带单交易员的�
 
 本仓库整理图文教程、KOL 复盘清单、熬鹰资本 BTC 历史案例、网站实图和可下载 CSV。每篇文章保留来源、观察区间与网站原文，方便收藏和复查。
 
-[打开免费观察台](https://bn.9987620.xyz/) · [阅读网站图文](https://bn.9987620.xyz/articles) · [使用指南](https://bn.9987620.xyz/guide) · [数据与推算方法](https://bn.9987620.xyz/methodology)
+[打开免费观察台](https://bn.9987620.xyz/) · [阅读网站图文](https://bn.9987620.xyz/articles) · [RSS订阅](https://bn.9987620.xyz/feed.xml) · [使用指南](https://bn.9987620.xyz/guide) · [数据与推算方法](https://bn.9987620.xyz/methodology)
 
 ![TRADER WATCH 币安交易员复盘实图，完整 ETHUSDT K 线面板展示同轮开仓、分批平仓、连接线、时间轴与价格轴](images/kline-cycle.png)
 
@@ -45,6 +45,14 @@ TRADER WATCH（币安交易员观察台）免费提供币安带单交易员的�
 | 交易员持仓查询、公开记录推算持仓 | [跟单复盘里的5个常见误区](articles/copy-trader-position-history-mistakes.md) |
 
 每篇 Markdown 文章开头都附有网站原文链接，网站文章区提供目录、来源与相关阅读。[查看全部图文](https://bn.9987620.xyz/articles)
+
+## 订阅与保存图文
+
+把 `https://bn.9987620.xyz/feed.xml` 添加到 RSS 阅读器，可以订阅图文更新。订阅条目包含摘要、网站实图和完整文章链接。
+
+每篇网站文章提供“下载本文Markdown”，保留正文、表格、原图链接、发布日期和来源，方便保存复盘资料。HTML 原文地址写在 Markdown 开头，便于回到持续维护的版本。
+
+[订阅RSS](https://bn.9987620.xyz/feed.xml) · [下载熬鹰案例Markdown](https://bn.9987620.xyz/articles/aoying-kline-review-btc-202610/markdown)
 
 ## 熬鹰资本 BTC 历史复盘案例
 

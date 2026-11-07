@@ -54,3 +54,5 @@ TRADER WATCH 按项目分别保存记录和提醒。切换交易员后，先核�
 - [观察台使用指南](https://bn.9987620.xyz/guide)
 
 [回到文章目录](../README.md) · [打开观察台](https://bn.9987620.xyz/)
+
+[下载网站Markdown版本](https://bn.9987620.xyz/articles/kol-trade-review-checklist/markdown) · [订阅图文RSS](https://bn.9987620.xyz/feed.xml)

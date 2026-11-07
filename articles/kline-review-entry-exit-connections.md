@@ -50,3 +50,5 @@
 - [同轮归组与价格计算方法](https://bn.9987620.xyz/methodology)
 
 [回到文章目录](../README.md) · [打开观察台](https://bn.9987620.xyz/)
+
+[下载网站Markdown版本](https://bn.9987620.xyz/articles/kline-review-entry-exit-connections/markdown) · [订阅图文RSS](https://bn.9987620.xyz/feed.xml)

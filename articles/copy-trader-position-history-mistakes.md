@@ -52,3 +52,5 @@
 - [熬鹰BTC历史案例](https://bn.9987620.xyz/articles/aoying-kline-review-btc-202610)
 
 [回到文章目录](../README.md) · [打开观察台](https://bn.9987620.xyz/)
+
+[下载网站Markdown版本](https://bn.9987620.xyz/articles/copy-trader-position-history-mistakes/markdown) · [订阅图文RSS](https://bn.9987620.xyz/feed.xml)

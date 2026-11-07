@@ -64,3 +64,5 @@ BTC历史案例实图，截于2026-11-07。图表用于核对这轮已保存记�
 - [本文三条历史记录CSV（固定案例）](https://bn.9987620.xyz/examples/aoying-btc-202610.csv)
 
 [回到文章目录](../README.md) · [打开观察台](https://bn.9987620.xyz/)
+
+[下载网站Markdown版本](https://bn.9987620.xyz/articles/aoying-kline-review-btc-202610/markdown) · [订阅图文RSS](https://bn.9987620.xyz/feed.xml)
