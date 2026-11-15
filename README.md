@@ -6,7 +6,7 @@ TRADER WATCH（币安交易员观察台）免费提供币安带单交易员的�
 
 本仓库整理图文教程、KOL 复盘清单、熬鹰资本 BTC 历史案例、网站实图和可下载 CSV。每篇文章保留来源、观察区间与网站原文，方便收藏和复查。
 
-[打开免费观察台](https://bn.9987620.xyz/) · [阅读网站图文](https://bn.9987620.xyz/articles) · [RSS订阅](https://bn.9987620.xyz/feed.xml) · [使用指南](https://bn.9987620.xyz/guide) · [数据与推算方法](https://bn.9987620.xyz/methodology)
+[打开免费观察台](https://bn.9987620.xyz/) · [阅读网站图文](https://bn.9987620.xyz/articles) · [RSS订阅](https://bn.9987620.xyz/feed.xml) · [Discord社群](https://discord.gg/NjXEW6mdDG) · [使用指南](https://bn.9987620.xyz/guide) · [数据与推算方法](https://bn.9987620.xyz/methodology)
 
 ![TRADER WATCH 币安交易员复盘实图，完整 ETHUSDT K 线面板展示同轮开仓、分批平仓、连接线、时间轴与价格轴](images/kline-cycle.png)
 
@@ -101,7 +101,7 @@ TRADER WATCH 由独立项目维护，使用币安可公开取得的带单记录�
 | `images/` | 四张网站实际截图，图注保留截图日期 |
 | `examples/` | 三条公开 BTC 成交组成的固定 CSV 案例 |
 
-资料更新于 2026-11-15。仓库名为 `binance-copy-trading-review`，网站品牌为 **TRADER WATCH / 币安交易员观察台**。
+资料更新于 2026-11-16。仓库名为 `binance-copy-trading-review`，网站品牌为 **TRADER WATCH / 币安交易员观察台**。
 
 ## English overview
 
@@ -112,3 +112,10 @@ This repository contains illustrated guides, a KOL trade-review checklist, scree
 Position reconstruction uses a reliable baseline plus observed opening quantities minus closing quantities, separately for each contract and direction. Each conclusion has a query cutoff and depends on history coverage. Uncertain records retain an unknown state.
 
 Start with the live dashboard or the documented workflow. For the historical BTC case, read the article alongside its fixed CSV and original public project link. [Open dashboard](https://bn.9987620.xyz/) · [Read guides](https://bn.9987620.xyz/articles) · [Data methodology](https://bn.9987620.xyz/methodology)
+
+
+## Discord社群与交易动作提醒
+
+加入社群交流币安交易员公开记录、K线复盘和项目反馈。监控目标新收录的开仓、加仓、减仓和平仓动作由Cloudflare云端推送到频道，每条附交易员、合约、数量、均价及北京时间。频道推送在关闭观察台网页后继续运行。
+
+[加入Discord社群](https://discord.gg/NjXEW6mdDG) · [打开交易观察台](https://bn.9987620.xyz/)
