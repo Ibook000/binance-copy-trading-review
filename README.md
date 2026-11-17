@@ -1,4 +1,4 @@
-# TRADER WATCH · 币安跟单交易员监控与 K 线复盘
+# 币安交易员监控与 K 线复盘 · TRADER WATCH
 
 **Binance Copy Trading Review · Public Trade History · KOL Trade Replay**
 
@@ -6,7 +6,7 @@ TRADER WATCH（币安交易员观察台）免费提供币安带单交易员的�
 
 本仓库整理图文教程、KOL 复盘清单、熬鹰资本 BTC 历史案例、网站实图和可下载 CSV。每篇文章保留来源、观察区间与网站原文，方便收藏和复查。
 
-[打开免费观察台](https://bn.9987620.xyz/) · [阅读网站图文](https://bn.9987620.xyz/articles) · [RSS订阅](https://bn.9987620.xyz/feed.xml) · [Discord社群](https://discord.gg/NjXEW6mdDG) · [使用指南](https://bn.9987620.xyz/guide) · [数据与推算方法](https://bn.9987620.xyz/methodology)
+[打开币安交易员监控](https://bn.9987620.xyz/) · [阅读网站图文](https://bn.9987620.xyz/articles) · [RSS订阅](https://bn.9987620.xyz/feed.xml) · [Discord社群](https://discord.gg/NjXEW6mdDG) · [使用指南](https://bn.9987620.xyz/guide) · [数据与推算方法](https://bn.9987620.xyz/methodology)
 
 ![TRADER WATCH 币安交易员复盘实图，完整 ETHUSDT K 线面板展示同轮开仓、分批平仓、连接线、时间轴与价格轴](images/kline-cycle.png)
 
