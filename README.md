@@ -1,4 +1,4 @@
-# TRADER WATCH · 币安跟单交易员监控与 K 线复盘
+# 币安交易员监控与 K 线复盘 · TRADER WATCH
 
 **Binance Copy Trading Review · Public Trade History · KOL Trade Replay**
 
@@ -6,7 +6,7 @@ TRADER WATCH（币安交易员观察台）免费提供币安带单交易员的�
 
 本仓库整理图文教程、KOL 复盘清单、熬鹰资本 BTC 历史案例、网站实图和可下载 CSV。每篇文章保留来源、观察区间与网站原文，方便收藏和复查。
 
-[打开免费观察台](https://bn.9987620.xyz/) · [阅读网站图文](https://bn.9987620.xyz/articles) · [RSS订阅](https://bn.9987620.xyz/feed.xml) · [Discord社群](https://discord.gg/NjXEW6mdDG) · [使用指南](https://bn.9987620.xyz/guide) · [数据与推算方法](https://bn.9987620.xyz/methodology)
+[打开币安交易员监控](https://bn.9987620.xyz/) · [阅读网站图文](https://bn.9987620.xyz/articles) · [RSS订阅](https://bn.9987620.xyz/feed.xml) · [Discord社群](https://discord.gg/NjXEW6mdDG) · [使用指南](https://bn.9987620.xyz/guide) · [数据与推算方法](https://bn.9987620.xyz/methodology)
 
 ![TRADER WATCH 币安交易员复盘实图，完整 ETHUSDT K 线面板展示同轮开仓、分批平仓、连接线、时间轴与价格轴](images/kline-cycle.png)
 
@@ -43,7 +43,8 @@ TRADER WATCH（币安交易员观察台）免费提供币安带单交易员的�
 | 熬鹰 K 线复盘、熬鹰资本 BTC 历史操作 | [47.241 BTC开空记录之后，还发生了什么？](articles/aoying-kline-review-btc-202610.md) |
 | K 线复盘、开平仓连线、分批平仓 | [把开仓、加仓和分批平仓连起来](articles/kline-review-entry-exit-connections.md) |
 | 币安交易员持仓查询、有仓与已平仓判断 | [怎样用公开记录判断有仓、已平仓与数据不足](articles/binance-trader-position-query.md) |
-| 币安交易员 Discord 提醒、推送延迟 | [怎样从 Discord 消息找到开平仓流水与 K 线](articles/binance-trader-discord-alerts.md) |
+| 币安带单员历史成交查询、合约开平仓记录、CSV 导出 | [按日期补取并导出公开成交](articles/binance-copy-trading-history-csv.md) |
+| 币安交易员 Discord 开仓提醒、推送延迟 | [怎样从 Discord 消息找到开平仓流水与 K 线](articles/binance-trader-discord-alerts.md) |
 | 公开记录推算持仓、交易复盘误区 | [跟单复盘里的5个常见误区](articles/copy-trader-position-history-mistakes.md) |
 
 每篇 Markdown 文章开头都附有网站原文链接，网站文章区提供目录、来源与相关阅读。[查看全部图文](https://bn.9987620.xyz/articles)
@@ -98,7 +99,7 @@ TRADER WATCH 由独立项目维护，使用币安可公开取得的带单记录�
 
 | 仓库目录 | 内容 |
 | --- | --- |
-| `articles/` | 七篇图文复盘教程，包含来源与网站原文 |
+| `articles/` | 八篇复盘教程，包含来源与网站原文 |
 | `images/` | 四张网站实际截图，图注保留截图日期 |
 | `examples/` | 三条公开 BTC 成交组成的固定 CSV 案例 |
 
