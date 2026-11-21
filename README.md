@@ -8,9 +8,28 @@ TRADER WATCH（币安交易员观察台）是一个独立的免费网页工具�
 
 [打开币安交易员监控](https://bn.9987620.xyz/) · [阅读网站图文](https://bn.9987620.xyz/articles) · [交易员公开记录](https://bn.9987620.xyz/traders) · [工具对比](https://bn.9987620.xyz/compare) · [术语表](https://bn.9987620.xyz/glossary) · [RSS订阅](https://bn.9987620.xyz/feed.xml) · [Discord社群](https://discord.gg/NjXEW6mdDG) · [使用指南](https://bn.9987620.xyz/guide) · [数据与推算方法](https://bn.9987620.xyz/methodology)
 
-![TRADER WATCH 币安交易员复盘实图，完整 ETHUSDT K 线面板展示同轮开仓、分批平仓、连接线、时间轴与价格轴](images/kline-cycle.png)
+![TRADER WATCH 新版观察台：交易员头像快捷切换、操作查询截止、公开记录推算持仓和 K 线成交标记](images/observation-desktop.jpg)
 
-网站实图截于 2026-11-07。截图中的行情和状态属于该时刻，点击图片可查看原尺寸。
+| 专注图表 | 交易轮次复盘 |
+| --- | --- |
+| ![隐藏侧栏并放大图表，同时保留查询时间、最近成交和推算数量](images/observation-focus.jpg) | ![按记录内已全平与未全平筛选并定位整轮开平仓](images/observation-cycles.jpg) |
+
+以上为 2026-11-21 的实际网站截图。图片中的行情、查询截止和记录仅对应截图时刻，不代表当前持仓或收益。文章中的 2026-11-07 历史案例与旧图继续保留其原始日期。
+
+<details>
+<summary>查看窄屏布局实图（约 340px CSS 视口）</summary>
+
+<img src="images/observation-mobile.jpg" width="337" alt="窄屏观察台：交易员头像、持仓与图表上下排列" />
+
+</details>
+
+## 这次更新了什么
+
+- 顶部显示交易员公开头像，保留名称和监控状态；头像复用已有云端资料，图片失败显示首字。
+- 新增“专注图表”，保留操作查询截止、当前合约最近成交和推算数量，方便观察 K 线。
+- 历史区可切换“成交流水 / 交易轮次”，按记录内已全平或未全平筛选，点击定位一轮交易。
+- 日期查询优先读取已保存记录，完整覆盖的区间不重新请求币安；只补缺口，分页和游标保留。自动采集处理近期，更早日期按需回补。
+- 新 Discord 成交通知配置 `@everyone`，并带交易员头像和名称。频道权限及成员通知设置影响实际提醒。
 
 ## 这个工具可以做什么？
 
@@ -18,8 +37,8 @@ TRADER WATCH（币安交易员观察台）是一个独立的免费网页工具�
 | --- | --- | --- |
 | 监控多个带单交易员 | 粘贴币安带单主页链接或项目 ID，自定义添加目标 | 每个项目分别保存成交与提醒 |
 | 查看开平仓记录 | 按交易员、合约和操作类型查看公开流水 | 成交时间、BUY/SELL、多空方向、数量与均价 |
-| 做 K 线复盘 | 5m、15m、30m、1h、4h、1d 六种周期 | 成交标记与流水对应 |
-| 看懂一轮加减仓 | 同轮编号与开平仓连线，点击定位整轮 | 同合约、同方向的数量累计关系 |
+| 做 K 线复盘 | 六种周期与专注图表 | 成交标记、最近成交和操作查询截止 |
+| 看懂一轮加减仓 | 交易轮次卡片、状态筛选与开平连线 | 同合约、同方向的数量累计关系；保留未配对成交 |
 | 核对推算持仓 | 展示数量、推算开仓均价和持仓依据 | 可靠起点、累计开平数量、完整查询截止时间 |
 | 补取历史与保存笔记 | 按日期分段补取，导出已保存流水 | 查询进度、区间覆盖和 CSV |
 | 回看监控提醒 | 保存新成交、推算变化与采集异常记录 | 提醒时间和对应交易员 |
@@ -108,7 +127,7 @@ TRADER WATCH 由独立项目维护，使用币安可公开取得的带单记录�
 | 仓库目录 | 内容 |
 | --- | --- |
 | `articles/` | 八篇图文：六篇复盘教程 + 工具对比 + 术语表，均含来源与网站原文 |
-| `images/` | 四张网站实际截图，图注保留截图日期 |
+| `images/` | 新版观察台、专注图表、交易轮次与历史教程实图，保留截图日期 |
 | `examples/` | 三条公开 BTC 成交组成的固定 CSV 案例 |
 
 资料更新于 2026-11-21。仓库名为 `binance-copy-trading-review`，网站品牌为 **TRADER WATCH / 币安交易员观察台** 。
@@ -117,7 +136,7 @@ TRADER WATCH 由独立项目维护，使用币安可公开取得的带单记录�
 
 **TRADER WATCH** is an independently maintained, free web tool for **Binance copy-trader monitoring and trade review**. It lets users add public lead-trader profiles, inspect collected execution history, replay entries and exits on candlestick charts, connect inferred trade cycles, and export records to CSV. It needs no personal Binance API keys and does not copy trades or place orders.
 
-This repository contains illustrated guides, a KOL trade-review checklist, screenshots from the working website, and a historical Aoying Capital BTC case with three downloadable public records. Chart intervals include 5m, 15m, 30m, 1h, 4h and 1d. Two additional pages compare five tools using official sources and a verification date, and define six core terms. Public trader pages expose saved executions and query cutoffs in server-rendered HTML; these changing snapshots must be cited with their timestamps.
+This repository contains illustrated guides, a KOL trade-review checklist, screenshots from the working website, and a historical Aoying Capital BTC case with three downloadable public records. Chart intervals include 5m, 15m, 30m, 1h, 4h and 1d. Two additional pages compare five tools using official sources and a verification date, and define six core terms. The dashboard provides cached trader portraits, a focused chart view, and quantity-based cycle cards with status filters. Public trader pages expose saved executions and query cutoffs in server-rendered HTML; these changing snapshots must be cited with their timestamps.
 
 Position reconstruction uses a reliable baseline plus observed opening quantities minus closing quantities, separately for each contract and direction. Each conclusion has a query cutoff and depends on history coverage. Uncertain records retain an unknown state.
 
@@ -125,7 +144,7 @@ Start with the live dashboard or the documented workflow. For the historical BTC
 
 ## Discord社群与交易动作提醒
 
-加入社群交流币安交易员公开记录、K线复盘和项目反馈。监控目标新收录的开仓、加仓、减仓和平仓动作由Cloudflare云端推送到频道，每条附交易员、合约、数量、均价及北京时间。频道推送在关闭观察台网页后继续运行。
+加入社群交流币安交易员公开记录、K线复盘和项目反馈。监控目标新收录的开仓、加仓、减仓和平仓动作由Cloudflare云端推送到频道，新成交通知正文包含 `@everyone`，消息和卡片带交易员公开头像、名称、合约、数量、均价及北京时间。频道推送在关闭观察台网页后继续运行；实际全体提醒受频道权限和成员通知设置影响。
 
 [加入Discord社群](https://discord.gg/NjXEW6mdDG) · [打开交易观察台](https://bn.9987620.xyz/)
 
