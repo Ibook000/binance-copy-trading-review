@@ -10,22 +10,24 @@ TRADER WATCH（币安交易员观察台）是一个独立的免费网页工具�
 
 [打开币安交易员监控](https://bn.9987620.xyz/) · [阅读网站图文](https://bn.9987620.xyz/articles) · [交易员公开记录](https://bn.9987620.xyz/traders) · [工具对比](https://bn.9987620.xyz/compare) · [术语表](https://bn.9987620.xyz/glossary) · [RSS订阅](https://bn.9987620.xyz/feed.xml) · [Discord社群](https://discord.gg/NjXEW6mdDG) · [使用指南](https://bn.9987620.xyz/guide) · [数据与推算方法](https://bn.9987620.xyz/methodology)
 
-![TRADER WATCH 新版观察台：交易员头像快捷切换、操作查询截止、公开记录推算持仓和 K 线成交标记](images/observation-desktop.jpg)
+![TRADER WATCH 新版观察台：交易员头像快捷切换、操作查询截止、公开记录推算持仓和 K 线成交标记](images/observation-desktop.jpg?v=20261121-eye-v1)
 
 | 专注图表 | 交易轮次复盘 |
 | --- | --- |
-| ![隐藏侧栏并放大图表，同时保留查询时间、最近成交和推算数量](images/observation-focus.jpg) | ![按记录内已全平与未全平筛选并定位整轮开平仓](images/observation-cycles.jpg) |
+| ![隐藏侧栏并放大图表，同时保留查询时间、最近成交和推算数量](images/observation-focus.jpg?v=20261121-eye-v1) | ![按记录内已全平与未全平筛选并定位整轮开平仓](images/observation-cycles.jpg?v=20261121-eye-v1) |
 
 以上为 2026-11-21 的实际网站截图。图片中的行情、查询截止和记录仅对应截图时刻，不代表当前持仓或收益。文章中的 2026-11-07 历史案例与旧图继续保留其原始日期。
 
 <details>
 <summary>查看窄屏布局实图（约 340px CSS 视口）</summary>
 
-<img src="images/observation-mobile.jpg" width="337" alt="窄屏观察台：交易员头像、持仓与图表上下排列" />
+<img src="images/observation-mobile.jpg?v=20261121-eye-v1" width="337" alt="窄屏观察台：交易员头像、持仓与图表上下排列" />
 
 </details>
 
 ## 这次更新了什么
+
+- 网站与 GitHub 使用暖金色“观察之眼＋双 K 线”Logo，页头、浏览器图标、手机图标和分享封面统一更新。
 
 - 顶部显示交易员公开头像，保留名称和监控状态；头像复用已有云端资料，图片失败显示首字。
 - 新增“专注图表”，保留操作查询截止、当前合约最近成交和推算数量，方便观察 K 线。
