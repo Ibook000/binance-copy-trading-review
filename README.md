@@ -1,3 +1,5 @@
+<p align="center"><img src="images/brand/trader-watch-lockup.png" alt="TRADER WATCH · 币安交易员观察台" width="640" /></p>
+
 # 币安交易员监控与 K 线复盘 · TRADER WATCH
 
 **Binance Copy Trading Review · Public Trade History · KOL Trade Replay**
@@ -148,3 +150,7 @@ Start with the live dashboard or the documented workflow. For the historical BTC
 
 [加入Discord社群](https://discord.gg/NjXEW6mdDG) · [打开交易观察台](https://bn.9987620.xyz/)
 
+
+## 品牌图标
+
+新版采用暖金色“观察之眼＋双 K 线”标志，网站页头、浏览器图标、手机图标和分享卡片统一使用。查看 [SVG / PNG 文件与设计说明](images/brand/README.md)。
