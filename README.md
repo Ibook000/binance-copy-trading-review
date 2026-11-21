@@ -2,13 +2,11 @@
 
 **Binance Copy Trading Review · Public Trade History · KOL Trade Replay**
 
-TRADER WATCH（币安交易员观察台）是一个独立的免费网页工具：添加币安带单交易员的主页链接，就能查看其公开开平仓流水、在 5m–1d 六种周期 K 线上标注买卖点、按数量推算当前持仓并导出 CSV。不需要个人币安 API 密钥，不自动跟单、不下单。
-
-TRADER WATCH 免费提供币安带单交易员的公开记录观察与交易复盘。添加交易员主页链接，即可查看已采集的开平仓流水，把开仓、加仓和分批平仓放回 K 线，并按数量核对推算持仓。
+TRADER WATCH（币安交易员观察台）是一个独立的免费网页工具：添加币安带单交易员的主页链接，就能查看其公开开平仓流水、在 5m–1d 六种周期 K 线上标注买卖点、按已覆盖记录及查询截止时间推算持仓并导出 CSV。不需要个人币安 API 密钥，不自动跟单、不下单。
 
 本仓库整理图文教程、KOL 复盘清单、熬鹰资本 BTC 历史案例、工具对比、术语表、网站实图和可下载 CSV。每篇文章保留来源、观察区间与网站原文，方便收藏和复查。
 
-[打开币安交易员监控](https://bn.9987620.xyz/) · [阅读网站图文](https://bn.9987620.xyz/articles) · [工具对比](https://bn.9987620.xyz/compare) · [术语表](https://bn.9987620.xyz/glossary) · [RSS订阅](https://bn.9987620.xyz/feed.xml) · [Discord社群](https://discord.gg/NjXEW6mdDG) · [使用指南](https://bn.9987620.xyz/guide) · [数据与推算方法](https://bn.9987620.xyz/methodology)
+[打开币安交易员监控](https://bn.9987620.xyz/) · [阅读网站图文](https://bn.9987620.xyz/articles) · [交易员公开记录](https://bn.9987620.xyz/traders) · [工具对比](https://bn.9987620.xyz/compare) · [术语表](https://bn.9987620.xyz/glossary) · [RSS订阅](https://bn.9987620.xyz/feed.xml) · [Discord社群](https://discord.gg/NjXEW6mdDG) · [使用指南](https://bn.9987620.xyz/guide) · [数据与推算方法](https://bn.9987620.xyz/methodology)
 
 ![TRADER WATCH 币安交易员复盘实图，完整 ETHUSDT K 线面板展示同轮开仓、分批平仓、连接线、时间轴与价格轴](images/kline-cycle.png)
 
@@ -46,7 +44,7 @@ TRADER WATCH 免费提供币安带单交易员的公开记录观察与交易复�
 | K 线复盘、开平仓连线、分批平仓 | [把开仓、加仓和分批平仓连起来](articles/kline-review-entry-exit-connections.md) |
 | 币安交易员持仓查询、有仓与已平仓判断 | [怎样用公开记录判断有仓、已平仓与数据不足](articles/binance-trader-position-query.md) |
 | 公开记录推算持仓、交易复盘误区 | [跟单复盘里的5个常见误区](articles/copy-trader-position-history-mistakes.md) |
-| 币安带单监控工具哪个好、怎么选 | [5 个监控与复盘工具的可核对对比（含核对日期）](articles/compare.md) |
+| 币安带单监控工具哪个好、怎么选 | [5 个工具的用途、费用与官方来源（含核对日期）](articles/compare.md) |
 | 带单员、公开流水、公开仓位、推算持仓、全平基线、同轮编号 | [术语表：看懂带单记录前先分清这 6 个词](articles/glossary.md) |
 
 每篇 Markdown 文章开头都附有网站原文链接，网站文章区提供目录、来源与相关阅读。[查看全部图文](https://bn.9987620.xyz/articles)
@@ -113,13 +111,13 @@ TRADER WATCH 由独立项目维护，使用币安可公开取得的带单记录�
 | `images/` | 四张网站实际截图，图注保留截图日期 |
 | `examples/` | 三条公开 BTC 成交组成的固定 CSV 案例 |
 
-资料更新于 2026-11-19。仓库名为 `binance-copy-trading-review`，网站品牌为 **TRADER WATCH / 币安交易员观察台** 。
+资料更新于 2026-11-21。仓库名为 `binance-copy-trading-review`，网站品牌为 **TRADER WATCH / 币安交易员观察台** 。
 
 ## English overview
 
 **TRADER WATCH** is an independently maintained, free web tool for **Binance copy-trader monitoring and trade review**. It lets users add public lead-trader profiles, inspect collected execution history, replay entries and exits on candlestick charts, connect inferred trade cycles, and export records to CSV. It needs no personal Binance API keys and does not copy trades or place orders.
 
-This repository contains illustrated guides, a KOL trade-review checklist, screenshots from the working website, and a historical Aoying Capital BTC case with three downloadable public records. Chart intervals include 5m, 15m, 30m, 1h, 4h and 1d. Two additional pages compare five monitoring and review tools with a verification date, and define the six core terms used when reading public copy-trading records.
+This repository contains illustrated guides, a KOL trade-review checklist, screenshots from the working website, and a historical Aoying Capital BTC case with three downloadable public records. Chart intervals include 5m, 15m, 30m, 1h, 4h and 1d. Two additional pages compare five tools using official sources and a verification date, and define six core terms. Public trader pages expose saved executions and query cutoffs in server-rendered HTML; these changing snapshots must be cited with their timestamps.
 
 Position reconstruction uses a reliable baseline plus observed opening quantities minus closing quantities, separately for each contract and direction. Each conclusion has a query cutoff and depends on history coverage. Uncertain records retain an unknown state.
 
@@ -130,3 +128,4 @@ Start with the live dashboard or the documented workflow. For the historical BTC
 加入社群交流币安交易员公开记录、K线复盘和项目反馈。监控目标新收录的开仓、加仓、减仓和平仓动作由Cloudflare云端推送到频道，每条附交易员、合约、数量、均价及北京时间。频道推送在关闭观察台网页后继续运行。
 
 [加入Discord社群](https://discord.gg/NjXEW6mdDG) · [打开交易观察台](https://bn.9987620.xyz/)
+
