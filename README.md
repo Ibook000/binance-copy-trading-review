@@ -6,6 +6,8 @@
 
 TRADER WATCH（币安交易员观察台）是一个独立的免费网页工具：添加币安带单交易员的主页链接，就能查看其公开开平仓流水、在 5m–1d 六种周期 K 线上标注买卖点、按已覆盖记录及查询截止时间推算持仓并导出 CSV。不需要个人币安 API 密钥，不自动跟单、不下单。
 
+新增交易员 X 推文增量存档和 K 线标注：默认显示已关联账号的全部已保存推文，X 图标按发布时间定位，悬浮窗查看推文全文或逐笔开平仓。推文不是成交记录，也不推断成交价格。
+
 本仓库整理图文教程、KOL 复盘清单、熬鹰资本 BTC 历史案例、工具对比、术语表、网站实图和可下载 CSV。每篇文章保留来源、观察区间与网站原文，方便收藏和复查。
 
 [打开币安交易员监控](https://bn.9987620.xyz/) · [阅读网站图文](https://bn.9987620.xyz/articles) · [交易员公开记录](https://bn.9987620.xyz/traders) · [工具对比](https://bn.9987620.xyz/compare) · [术语表](https://bn.9987620.xyz/glossary) · [RSS订阅](https://bn.9987620.xyz/feed.xml) · [Discord社群](https://discord.gg/NjXEW6mdDG) · [使用指南](https://bn.9987620.xyz/guide) · [数据与推算方法](https://bn.9987620.xyz/methodology)
@@ -130,7 +132,7 @@ TRADER WATCH 由独立项目维护，使用币安可公开取得的带单记录�
 
 | 仓库目录 | 内容 |
 | --- | --- |
-| `articles/` | 八篇图文：六篇复盘教程 + 工具对比 + 术语表，均含来源与网站原文 |
+| `articles/` | 九篇图文：七篇复盘教程 + 工具对比 + 术语表，均含来源与网站原文 |
 | `images/` | 新版观察台、专注图表、交易轮次与历史教程实图，保留截图日期 |
 | `examples/` | 三条公开 BTC 成交组成的固定 CSV 案例 |
 
@@ -199,3 +201,11 @@ Start with the live dashboard or the documented workflow. For the historical BTC
 默认全部推文，点击 X 图标展开全文。图中已验证 2026-11-22 18:59 发布的最新存档；缓存行情未覆盖的时段显示空白时间槽，不生成价格。
 
 ![推文按发布时间显示在 K 线时间轴上，点击展开正文](images/tweets-on-candles-20261122.jpg)
+
+## 推文与开平仓对照教程
+
+[网站图文：交易员推文怎么放到 K 线上？](https://bn.9987620.xyz/articles/trader-tweets-kline-review) · [使用指南](https://bn.9987620.xyz/guide) · [数据口径](https://bn.9987620.xyz/methodology)
+
+[GitHub 同步正文](articles/trader-tweets-kline-review.md)
+
+教程使用 2026-11-22 实站截图，分别说明推文发布时间、公开成交时间、采集时间、缓存空白时段与增量存档。网站 HTML、Markdown、RSS、llms 事实说明和 GitHub 文档使用相同口径；更新资料不代表搜索已收录或 AI 已引用。
