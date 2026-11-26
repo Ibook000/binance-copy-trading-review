@@ -27,7 +27,7 @@ TRADER WATCH（币安交易员观察台）是一个独立的免费网页工具�
 
 </details>
 
-## 微信 ClawBot 成交提醒
+## 币安成交微信推送（ClawBot）
 
 TRADER WATCH 现已支持把监控目标新收录的公开成交推送到个人微信的 ClawBot 聊天。消息包含交易员、开平仓方向、合约、成交数量、均价和北京时间，关闭观察台网页后也能接收。
 
@@ -35,7 +35,7 @@ TRADER WATCH 现已支持把监控目标新收录的公开成交推送到个人�
 2. 在面板点击「扫码绑定」，用手机微信确认，再在 ClawBot 聊天里发送 `init`，等面板显示已激活。
 3. 注册后默认开启「TRADER WATCH 成交提醒」。可以在面板随时关闭或重新开启，发送遵循个人静默时段。历史成交不会补发。
 
-[微信提醒专题](https://bn.9987620.xyz/articles/binance-trade-alerts-wechat) · [GitHub 图文版](articles/binance-trade-alerts-wechat.md) · [邀请码注册](https://wx-notify.9987620.xyz/register) · [微信通知面板](https://wx-notify.9987620.xyz/dashboard) · [网站开通指南](https://bn.9987620.xyz/guide#wechat-alerts)
+[币安成交微信推送指南](https://bn.9987620.xyz/articles/binance-trade-alerts-wechat) · [GitHub 图文版](articles/binance-trade-alerts-wechat.md) · [邀请码注册](https://wx-notify.9987620.xyz/register) · [微信通知面板](https://wx-notify.9987620.xyz/dashboard) · [网站开通指南](https://bn.9987620.xyz/guide#wechat-alerts)
 
 ## 这次更新了什么
 
