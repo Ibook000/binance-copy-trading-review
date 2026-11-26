@@ -10,7 +10,7 @@ TRADER WATCH（币安交易员观察台）是一个独立的免费网页工具�
 
 本仓库整理图文教程、KOL 复盘清单、熬鹰资本 BTC 历史案例、工具对比、术语表、网站实图和可下载 CSV。每篇文章保留来源、观察区间与网站原文，方便收藏和复查。
 
-[打开币安交易员监控](https://bn.9987620.xyz/) · [阅读网站图文](https://bn.9987620.xyz/articles) · [交易员公开记录](https://bn.9987620.xyz/traders) · [工具对比](https://bn.9987620.xyz/compare) · [术语表](https://bn.9987620.xyz/glossary) · [RSS订阅](https://bn.9987620.xyz/feed.xml) · [Discord社群](https://discord.gg/NjXEW6mdDG) · [使用指南](https://bn.9987620.xyz/guide) · [数据与推算方法](https://bn.9987620.xyz/methodology)
+[打开币安交易员监控](https://bn.9987620.xyz/) · [阅读网站图文](https://bn.9987620.xyz/articles) · [交易员公开记录](https://bn.9987620.xyz/traders) · [工具对比](https://bn.9987620.xyz/compare) · [术语表](https://bn.9987620.xyz/glossary) · [RSS订阅](https://bn.9987620.xyz/feed.xml) · [Discord社群](https://discord.gg/NjXEW6mdDG) · [微信提醒](https://bn.9987620.xyz/guide#wechat-alerts) · [使用指南](https://bn.9987620.xyz/guide) · [数据与推算方法](https://bn.9987620.xyz/methodology)
 
 ![TRADER WATCH 新版观察台：交易员头像快捷切换、操作查询截止、公开记录推算持仓和 K 线成交标记](images/dashboard-clean-20261122.jpg)
 
@@ -26,6 +26,16 @@ TRADER WATCH（币安交易员观察台）是一个独立的免费网页工具�
 <img src="images/observation-mobile.jpg?v=20261121-eye-v1" width="337" alt="窄屏观察台：交易员头像、持仓与图表上下排列" />
 
 </details>
+
+## 微信 ClawBot 成交提醒
+
+TRADER WATCH 现已支持把监控目标新收录的公开成交推送到个人微信的 ClawBot 聊天。消息包含交易员、开平仓方向、合约、成交数量、均价和北京时间，关闭观察台网页后也能接收。
+
+1. 使用管理员提供的邀请码注册，登录微信通知面板。
+2. 在面板点击「扫码绑定」，用手机微信确认，再在 ClawBot 聊天里发送 `init`，等面板显示已激活。
+3. 注册后默认开启「TRADER WATCH 成交提醒」。可以在面板随时关闭或重新开启，发送遵循个人静默时段。历史成交不会补发。
+
+[邀请码注册](https://wx-notify.9987620.xyz/register) · [微信通知面板](https://wx-notify.9987620.xyz/dashboard) · [网站开通指南](https://bn.9987620.xyz/guide#wechat-alerts)
 
 ## 这次更新了什么
 
